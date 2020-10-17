@@ -1,6 +1,5 @@
 import React from 'react';
-import './App.css';
-
+import './App.scss';
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,7 +13,8 @@ import Footer from './Footer/Footer';
 import AboutPage from './AboutPage/AboutPage';
 import LoginPage from './LoginPage/LoginPage';
 
-function App() {
+
+function App1() {
   return (
     <Router>
     <Menu/>
@@ -31,10 +31,12 @@ function App() {
           <HomePage/>
           </Route>
       </Switch>
+      
     </div>
     <Footer/>
   </Router>
   );
 }
 
-export default App;
+
+export default App1;
